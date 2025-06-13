@@ -17,6 +17,6 @@ Output:
 
 ### Task 2: Find all failed HTTP requests from user with Windows based browsers:
 ```sql
-indext="http_project" status_code>="400" AND user_agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+indext="http_project" status_code>="400" AND user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 ```
 Output:
