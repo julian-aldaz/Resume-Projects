@@ -15,7 +15,7 @@ Output:
 
 ![task 1](https://github.com/user-attachments/assets/4092414f-9d6e-4cff-a3dd-9664a00b8677)
 
-### Task 2: Find all failed HTTP requests from user with Windows based browsers:
+### Task 2: Find all failed HTTP requests from users with Windows based browsers:
 ```sql
 index="http_project" status_code>="400" AND user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 ```
