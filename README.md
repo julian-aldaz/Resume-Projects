@@ -12,4 +12,5 @@
 index="http_project" | stats count by "id.orig_h"
 ```
 Output:
+
 ![855](https://github.com/user-attachments/assets/633663b8-1072-43b5-94e8-f3060dc749ed)
