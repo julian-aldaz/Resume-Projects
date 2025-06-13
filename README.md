@@ -1,2 +1,4 @@
 # Splunk_Lab
-Resume project to show proficiency in Splunk Cloud
+Resume project to show basic proficiency in Splunk Cloud
+---
+
