@@ -1,6 +1,0 @@
-# Splunk HTTP Log Analysis
-
----
-Lab Setup:
-Using Splunk Cloud to analyize logs
-Using sample json file that has 3,000 logs of HTTP data shown here: (https://raw.githubusercontent.com/0xrajneesh/30-Days-SOC-Challenge-Beginner/refs/heads/main/http_logs.json)
