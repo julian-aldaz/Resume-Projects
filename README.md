@@ -31,7 +31,7 @@ Output:
 
 ![05576](https://github.com/user-attachments/assets/13341932-8e0f-4ad2-9ee4-40ed35760f91)
 
-### Task 4: Find all large file transfers greater than 500KB
+### Task 4: Find all file transfers greater than 500KB
 ```sql
 index="http_project" resp_body_len>500000 | table "ts" "id.orig_h" "id.resp_h" "uri" "resp_body_len" | sort -resp_body_len
 ```
