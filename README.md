@@ -19,4 +19,5 @@ Output:
 ```sql
 index="http_project" status_code>="400" AND user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 ```
-Output: ![98755](https://github.com/user-attachments/assets/40703948-ea24-4568-b60e-a5d9cf9f5512)
+Output: 
+![98755](https://github.com/user-attachments/assets/40703948-ea24-4568-b60e-a5d9cf9f5512)
