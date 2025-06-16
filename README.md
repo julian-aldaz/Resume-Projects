@@ -39,4 +39,7 @@ Output:
 
 ![96556](https://github.com/user-attachments/assets/68204e69-3e5e-4f94-a3ae-d73263cf9e8e)
 
+---
+### Quick Dashboard to show all queries together:
 
+![http_project_2025-06-16 at 12 05 05-0700_Splunk](https://github.com/user-attachments/assets/d0e23482-5afc-4ccc-a538-080fad877c51)
