@@ -43,3 +43,8 @@ Output:
 ### Quick Dashboard to show all queries together:
 
 ![http_project_2025-06-16 at 12 05 05-0700_Splunk](https://github.com/user-attachments/assets/d0e23482-5afc-4ccc-a538-080fad877c51)
+
+---
+### Summary:
+
+In this project, I used Splunk Cloud to practice analyzing HTTP log data and ran a few basic security-focused searches. First, I created a custom index and loaded in sample JSON logs. Then I wrote SPL queries to dig into the data and find things that could matter in a real-world scenario. Task 1 helped me see which IP addresses (id_orig_h) were generating the most traffic, which could point to scanners or just really active users. Task 2 filtered out failed HTTP requests (status code 400) from Windows-based browsers. This could help spot misconfigured clients or even early signs of automated attacks. Task 3 looked for user-agents linked to tools like sqlmap or curl, which are often used in scripted or malicious activity. Task 4 showed all the large file transfers over 500KB. That’s useful for finding possible data exfiltration or big file downloads. Overall, this project gave me hands-on experience using Splunk’s search language (SPL), creating indexes, and looking at logs from a security analyst’s point of view. It was a good intro to log analysis and threat detection using Splunk Cloud.
