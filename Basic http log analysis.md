@@ -1,4 +1,4 @@
-# Splunk Lab: Resume project to show basic proficiency in Splunk Cloud
+# Resume Project: Basic Proficiency in Splunk Cloud
 
 ### Setup:
 1. Using Splunk Cloud to analyize HTTP logs
