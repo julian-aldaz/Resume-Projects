@@ -14,3 +14,8 @@ http.request.method == "POST"
 ```
 
 ![06879](https://github.com/user-attachments/assets/03d5d595-8143-42cd-b158-91ac65fdbf82)
+
+I could also filter by other factors such as domain, IP source, or port using the following commands
+```sql
+dns, ip.src == x.x.x.x, tcp.port == 80
+```
