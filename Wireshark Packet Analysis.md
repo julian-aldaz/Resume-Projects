@@ -19,3 +19,5 @@ I could also filter by other factors such as domain, IP source, or port using th
 ```sql
 dns, ip.src == x.x.x.x, tcp.port == 80
 ```
+---
+### Sample Log Analysis From Google Certificate:
