@@ -3,7 +3,7 @@
 ### Setup:
 1. Use Kali Linux in a VM to run Wireshark
 2. Use Wireshark to capture and analyze packets coming from this unsecure website: http://testphp.vulnweb.com/login.php
-3. Utilizing sample TCP/HTTP data from the Google Professional Cybersecurity Certificate program to report findings.
+3. Utilizing sample TCP/HTTP data from the Google Professional Cybersecurity Certificate program to practice analyzing attacks.
 ---
 ### Overview: 
 In the VM I started up Wireshark to start capturing data and entered the unsecure website, it was a login page in which I enter the username: admin, and the password: password123. I stopped Wireshark and began to analyze and filter the data.
