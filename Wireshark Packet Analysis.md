@@ -9,5 +9,8 @@
 In the VM I started up Wireshark to start capturing data and entered the unsecure website, it was a login page in which I enter the username: admin, and the password: password123. I stopped Wireshark and began to analyze and filter the data.
 
 Due to this website being an unecrypted HTTP website, the username and password I entered in earlier would be able to be seen in plaintext within Wireshark. To get the packet with this information I entered in the following command and followed the HTTP stream.
+```sql
+http.request.method == "POST"
+```
 
 ![06879](https://github.com/user-attachments/assets/03d5d595-8143-42cd-b158-91ac65fdbf82)
