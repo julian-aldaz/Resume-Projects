@@ -21,3 +21,5 @@ dns, ip.src == x.x.x.x, tcp.port == 80
 ```
 ---
 ### Sample Log Analysis From Google Certificate:
+
+![97678](https://github.com/user-attachments/assets/a26f672e-e212-4767-ab67-082738a73c2e)
