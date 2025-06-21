@@ -27,3 +27,6 @@ By looking at the logs we can identify a TCP SYN flood DOS attack occuring. We c
 
 ![97678](https://github.com/user-attachments/assets/a26f672e-e212-4767-ab67-082738a73c2e)
 
+---
+### Summary:
+This project helped me understand how to use Wireshark to analyze real world traffic. I learned how login data can be exposed on unsecure sites and how to spot an attack like SYN flood DoS. These are some of the basic yet important skills needed when working in cybersecurity.
