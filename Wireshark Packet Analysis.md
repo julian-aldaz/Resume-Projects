@@ -1,7 +1,7 @@
 # Basic Network Packet Analysis Using Wireshark
 
 ### Setup:
-1. Use Kali Linux in a VM to use Wireshark
+1. Use Kali Linux in a VM to run Wireshark
 2. Use Wireshark to analyze packets coming from this unsecure website: http://testphp.vulnweb.com/login.php
 3. Utilizing sample TCP/HTTP data from the Google Professional Cybersecurity Certificate program to report findings.
 ---
