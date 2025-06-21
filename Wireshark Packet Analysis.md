@@ -5,7 +5,7 @@
 2. Use Wireshark to capture and analyze packets coming from this unsecure website: http://testphp.vulnweb.com/login.php
 3. Utilizing sample TCP/HTTP data from the Google Professional Cybersecurity Certificate program to practice analyzing attacks.
 ---
-### Overview: 
+### Part 1: Capturing Login Info Over HTTP 
 In the VM I started up Wireshark to start capturing data and entered the unsecure website, it was a login page in which I enter the username: admin, and the password: password123. I stopped Wireshark and began to analyze and filter the data.
 
 Due to this website being an unecrypted HTTP website, the username and password I entered in earlier would be able to be seen in plaintext within Wireshark. To get the packet with this information I entered in the following command and followed the HTTP stream.
@@ -20,7 +20,7 @@ I could also filter by other factors such as domain, IP source, or port using th
 dns, ip.src == x.x.x.x, tcp.port == 80
 ```
 ---
-### Sample Log Analysis From Google Certificate:
+### Part 2: Analyzing Google Sample Logs
 
 ### Overview:
 By looking at the logs we can identify a TCP SYN flood DOS attack occuring. We can conclude its not a DDOS as there are not other IPs besides the one causing the attack. Starting at log 57 we can see that the IP 203.0.113.0 inititates a TCP handshake by sending a SYN packet. However, this three way handshake is never finished, The same IP continues to send more SYN packets in rapid succession in order to overload the server causing it to crash. We see it succeeded in doing this at the 77th log in which it says "HTTP/1.1 504 Gateway Time-out (text/html)" from another IP trying to access the website.
