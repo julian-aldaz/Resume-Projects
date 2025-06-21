@@ -23,7 +23,7 @@ dns, ip.src == x.x.x.x, tcp.port == 80
 ### Part 2: Analyzing Google Sample Logs
 
 ### Overview:
-By looking at the logs we can identify a TCP SYN flood DOS attack occuring. We can conclude its not a DDOS as there are not other IPs besides the one causing the attack. Starting at log 57 we can see that the IP 203.0.113.0 inititates a TCP handshake by sending a SYN packet. However, this three way handshake is never finished, The same IP continues to send more SYN packets in rapid succession in order to overload the server causing it to crash. We see it succeeded in doing this at the 77th log in which it says "HTTP/1.1 504 Gateway Time-out (text/html)" from another IP trying to access the website.
+By looking at the logs we can identify a TCP SYN flood DOS attack occuring. We can conclude its not a DDOS as there are no other IPs besides the one causing the attack. Starting at log 57 we can see that the IP 203.0.113.0 inititates a TCP handshake by sending a SYN packet. However, this three way handshake is never finished, The same IP continues to send more SYN packets in rapid succession in order to overload the server causing it to crash. We see it succeeded in doing this at the 77th log in which it says "HTTP/1.1 504 Gateway Time-out (text/html)" from another IP trying to access the website.
 
 ![97678](https://github.com/user-attachments/assets/a26f672e-e212-4767-ab67-082738a73c2e)
 
