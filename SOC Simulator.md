@@ -43,3 +43,6 @@ There is no log that shows record of the firewall allowing or blocking access so
 Normally we would take care of the highest severity alerts first however this alert did not come up before starting the previous one.
 ![tghg](https://github.com/user-attachments/assets/35fde93f-13e1-4900-ae4c-9dbc6bacf352)
 
+We can use the other playbook provided to us for suspicious outbound connection.
+![image](https://github.com/user-attachments/assets/999dd43a-0391-4074-8052-6244e07ebc01)
+
