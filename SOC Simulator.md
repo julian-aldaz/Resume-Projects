@@ -67,4 +67,10 @@ Using the playbooks discussed earlier we will check the URL for malicious intent
 The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show connection was allowed. This makes this alert a true positive and esculation is required as connection was successful, here is the full case report:
 ![utyf](https://github.com/user-attachments/assets/f627e6c3-b770-4956-a62c-7c042912f9f6)
 
+---
+### Alert 4: Inbound Email Containing Suspicious External Link (True Positive)
+![tghh](https://github.com/user-attachments/assets/d910b460-bd04-4b15-8724-aa3d8c5f70fe)
+
+If we look at the link this alert is actually a precursor to alert 2. the was the phishing email sent that caused H. Harris to click on the link. We already know the link is malicious and firewall blocked access so we are ready to write the case report.
+![ytr](https://github.com/user-attachments/assets/12dc611f-695f-457c-870b-4e972b0a836d)
 
