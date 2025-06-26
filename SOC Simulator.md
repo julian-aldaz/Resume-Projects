@@ -64,5 +64,7 @@ Using the playbooks discussed earlier we will check the URL for malicious intent
 ![yhh](https://github.com/user-attachments/assets/b8873423-0fad-4706-b052-39de1c663405)
 ![ytuh](https://github.com/user-attachments/assets/3f488bf3-6208-4425-9706-8bc4bf734014)
 
-The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show
+The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show connection was allowed. This makes this alert a true positive and esculation is required as connection was successful, here is the full case report:
+![utyf](https://github.com/user-attachments/assets/f627e6c3-b770-4956-a62c-7c042912f9f6)
+
 
