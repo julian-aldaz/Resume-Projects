@@ -59,3 +59,10 @@ Through analyzation we can conclude the alert was a true positive but does not r
 ### Alert 3: Inbound Email Containing Suspicious External Link (True Positive)
 ![hgh](https://github.com/user-attachments/assets/8d279f65-c178-4df9-9a06-b6b51a7967a9)
 
+Using the playbooks discussed earlier we will check the URL for malicious intent, see if the sender has communicated with anyone else, and check firewall logs for allowed or blocked access.
+![yu](https://github.com/user-attachments/assets/b2edbce9-141b-4e64-8a76-d10c5112d78f)
+![yhh](https://github.com/user-attachments/assets/b8873423-0fad-4706-b052-39de1c663405)
+![ytuh](https://github.com/user-attachments/assets/3f488bf3-6208-4425-9706-8bc4bf734014)
+
+The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show
+
