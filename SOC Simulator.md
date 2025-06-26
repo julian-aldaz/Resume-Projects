@@ -12,6 +12,7 @@ Threat Intelligence: Correlated evidence with MITRE ATT&CK tactics and technique
 Analytical Thinking: Made data-driven decisions and documented findings in investigation reports.
 
 Hands-on Blue Team Experience: Simulated responsibilities of a Tier 1 SOC Analyst, triaging alerts and escalating incidents when appropriate.
+
 ---
 ### Process:
 I used the introduction to phishing room for this project. The objectives are to monitor and analyze alerts, identify and document susipcious emails and attachments, and lastly create a detailed case report based on my observations on each alert to help the team understand the full scope of the threat. 
