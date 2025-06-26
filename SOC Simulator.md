@@ -76,3 +76,9 @@ If we look at the link this alert is actually a precursor to alert 2. the was th
 
 ![tg](https://github.com/user-attachments/assets/aac048e7-1666-42c6-bd73-35d2da69cf17)
 We found all the true positives in the alert queue and correctly assessed each one!
+
+---
+### Reflection
+![yhf](https://github.com/user-attachments/assets/a24e9776-73ef-40cf-a936-edac2c55c3bc)
+
+Reading through the analysis of my reports I have learned that I was able to detail key aspects in each element of the incidents but I need work on more clarification and more detail on the 5 W's, mostly in the 'When', and 'Why' aspects. This project helped me gauged how work for a real SOC analyst could look like and the need for detail and clarificaion in each case report. I will continue to work on areas I lack in to become the best SOC analyst I can.
