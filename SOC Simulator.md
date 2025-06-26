@@ -26,4 +26,5 @@ Each case report will also clarify if the alert is a true positive or a false po
 The alert was triggered by a link within the email body, I can use the playbook provided to me to see what the next steps would be to analyze the alert.
 ![ghtb](https://github.com/user-attachments/assets/0fadcd24-bf62-477c-bb30-1dc160156b87)
 
-The first step for phishing email analysis is to search up the sender's IP on TryDetectThis to detect if the IP is safe or malicious. TryDetectThis is an application much like VirusTotal or URLvoid.com.
+The first step for phishing email analysis is to search up the sender's domain on TryDetectThis to detect if the domain is safe or malicious. TryDetectThis is an application much like VirusTotal or URLvoid.com.
+![788766](https://github.com/user-attachments/assets/a5c405ff-77df-4f78-89f5-3f755b3b5cb1)
