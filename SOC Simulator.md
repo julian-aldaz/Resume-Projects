@@ -46,3 +46,12 @@ Normally we would take care of the highest severity alerts first however this al
 We can use the other playbook provided to us for suspicious outbound connection.
 ![image](https://github.com/user-attachments/assets/999dd43a-0391-4074-8052-6244e07ebc01)
 
+Firewall logs show the source IP did attempt connection but the firewall was able to block it since the URL was on the block list.
+![uy](https://github.com/user-attachments/assets/4bb6264b-e6cc-475e-ace4-3738452d4881)
+
+Just to double check the status of the link we can go to TryDetectThis again and see that the link is in fact malicious.
+![tdg](https://github.com/user-attachments/assets/77c154c8-aecf-4066-a804-6bb9cb8f93eb)
+
+Through analyzation we can conclude the alert was a true positive but does not require esculation as the attempted connection was blocked.
+![ygtg](https://github.com/user-attachments/assets/f38c0016-e38b-4d35-8c18-930ce2b33128)
+
