@@ -15,8 +15,10 @@ Hands-on Blue Team Experience: Simulated responsibilities of a Tier 1 SOC Analys
 
 ---
 ### Process:
+
 I used the introduction to phishing room for this project. The objectives are to monitor and analyze alerts, identify and document susipcious emails and attachments, and lastly create a detailed case report based on my observations on each alert to help the team understand the full scope of the threat. 
 Each case report will also clarify if the alert is a true positive or a false positive, if it is found to be true positive then I will clarify and give reasoning as to whether the incident requires esculation or not.
+
 ---
 ### Alert 1: Inbound Email Containing Suspicious External Link
 ![yhgf](https://github.com/user-attachments/assets/d4747d08-9601-49d3-8c99-44eb5a462569)
