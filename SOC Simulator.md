@@ -74,3 +74,5 @@ The URL was deemed malicious, the sender only communicated with C. Allen, and fi
 If we look at the link this alert is actually a precursor to alert 2. the was the phishing email sent that caused H. Harris to click on the link. We already know the link is malicious and firewall blocked access so we are ready to write the case report.
 ![ytr](https://github.com/user-attachments/assets/12dc611f-695f-457c-870b-4e972b0a836d)
 
+![tg](https://github.com/user-attachments/assets/aac048e7-1666-42c6-bd73-35d2da69cf17)
+We found all the true positives in the alert queue and correctly assessed each one!
