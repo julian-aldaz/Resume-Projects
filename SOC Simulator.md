@@ -20,7 +20,7 @@ I used the introduction to phishing room for this project. The objectives are to
 Each case report will also clarify if the alert is a true positive or a false positive, if it is found to be true positive then I will clarify and give reasoning as to whether the incident requires esculation or not.
 
 ---
-### Alert 1: Inbound Email Containing Suspicious External Link
+### Alert 1: Inbound Email Containing Suspicious External Link (False Positive)
 ![yhgf](https://github.com/user-attachments/assets/d4747d08-9601-49d3-8c99-44eb5a462569)
 
 The alert was triggered by a link within the email body, I can use the playbook provided to me to see what the next steps would be to analyze the alert.
@@ -39,7 +39,7 @@ There is no log that shows record of the firewall allowing or blocking access so
 ![85969](https://github.com/user-attachments/assets/a521a433-f683-4c9d-b325-3a5b658057b2)
 
 ---
-### Alert 2: Access to Blacklisted External URL Blocked By Firewall
+### Alert 2: Access to Blacklisted External URL Blocked By Firewall (True Positive)
 Normally we would take care of the highest severity alerts first however this alert did not come up before starting the previous one.
 ![tghg](https://github.com/user-attachments/assets/35fde93f-13e1-4900-ae4c-9dbc6bacf352)
 
@@ -54,4 +54,8 @@ Just to double check the status of the link we can go to TryDetectThis again and
 
 Through analyzation we can conclude the alert was a true positive but does not require esculation as the attempted connection was blocked.
 ![ygtg](https://github.com/user-attachments/assets/f38c0016-e38b-4d35-8c18-930ce2b33128)
+
+---
+### Alert 3: Inbound Email Containing Suspicious External Link (True Positive)
+![hgh](https://github.com/user-attachments/assets/8d279f65-c178-4df9-9a06-b6b51a7967a9)
 
