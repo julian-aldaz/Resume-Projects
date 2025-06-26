@@ -1,23 +1,28 @@
 # TryHackMe: SOC Simulator
 
 ### Overview:
-Simulated a real-world Security Operations Center (SOC) environment to practice incident response and threat detection. Used Splunk to investigate a range of alerts, analyze malicious activity, and apply the MITRE ATT&CK framework to map adversary behavior.
+Worked through a hands-on Security Operations Center (SOC) simulation to learn how to investigate alerts, respond to incidents, and think like a Tier 1 SOC analyst. I used Splunk to search logs, find suspicious activity, and connect the dots to figure out how attacks happened.
 Key Skills Demonstrated: 
-SIEM Analysis (Splunk): Queried and filtered logs to identify indicators of compromise (IOCs) and trace attacker activity.
+Investigated different alerts like suspicious logins and phishing emails.
 
-Incident Response: Conducted step-by-step investigations of suspicious events such as phishing, privilege escalation, and lateral movement.
+Used Splunk to search for patterns, find indicators of compromise (IOCs), and trace attacker activity across systems.
 
-Threat Intelligence: Correlated evidence with MITRE ATT&CK tactics and techniques to determine adversary behavior patterns.
+Took notes on each case, including what happened, how I found it, and how it could be stopped.
 
-Analytical Thinking: Made data-driven decisions and documented findings in investigation reports.
-
-Hands-on Blue Team Experience: Simulated responsibilities of a Tier 1 SOC Analyst, triaging alerts and escalating incidents when appropriate.
+Practiced working with a SOC-style alert queue, just like in a real security team.
 
 ---
 ### Process:
 
-I used the introduction to phishing room for this project. The objectives are to monitor and analyze alerts, identify and document susipcious emails and attachments, and lastly create a detailed case report based on my observations on each alert to help the team understand the full scope of the threat. 
-Each case report will also clarify if the alert is a true positive or a false positive, if it is found to be true positive then I will clarify and give reasoning as to whether the incident requires esculation or not.
+For this project, I focused on the Introduction to Phishing room. My objectives were:
+
+Monitor and analyze alerts
+
+Identify and document suspicious emails and attachments
+
+Create a detailed case report for each alert to help the team understand the full scope of the threat
+
+Each case report included whether the alert was a true positive or false positive, along with a reasoned decision on whether escalation was necessary.
 
 ---
 ### Alert 1: Inbound Email Containing Suspicious External Link (False Positive)
@@ -35,7 +40,7 @@ TryDetectThis has found this URL to be safe. The next step in the phishing playb
 The sender has only communicated with J. Garcia on two seperate occasions, this shows signs that the sender's intentions are not malicious.
 ![uut](https://github.com/user-attachments/assets/50268f75-1ad8-4bab-a167-111b4da91b91)
 
-There is no log that shows record of the firewall allowing or blocking access so it is assumed J. Garcia did not click on the link. I can put all the information I gathered a write a case report on a false positive alert.
+There is no log that shows record of the firewall allowing or blocking access so it is assumed J. Garcia did not click on the link. I can put all the information I gathered and write a case report on a false positive alert.
 ![85969](https://github.com/user-attachments/assets/a521a433-f683-4c9d-b325-3a5b658057b2)
 
 ---
@@ -52,30 +57,30 @@ Firewall logs show the source IP did attempt connection but the firewall was abl
 Just to double check the status of the link we can go to TryDetectThis again and see that the link is in fact malicious.
 ![tdg](https://github.com/user-attachments/assets/77c154c8-aecf-4066-a804-6bb9cb8f93eb)
 
-Through analyzation we can conclude the alert was a true positive but does not require esculation as the attempted connection was blocked.
+Through analyzation we can conclude the alert was a true positive but does not require escalation as the attempted connection was blocked.
 ![ygtg](https://github.com/user-attachments/assets/f38c0016-e38b-4d35-8c18-930ce2b33128)
 
 ---
 ### Alert 3: Inbound Email Containing Suspicious External Link (True Positive)
 ![hgh](https://github.com/user-attachments/assets/8d279f65-c178-4df9-9a06-b6b51a7967a9)
 
-Using the playbooks discussed earlier we will check the URL for malicious intent, see if the sender has communicated with anyone else, and check firewall logs for allowed or blocked access.
+Using the playbooks discussed earlier I will check the URL for malicious intent, see if the sender has communicated with anyone else, and check firewall logs for allowed or blocked access.
 ![yu](https://github.com/user-attachments/assets/b2edbce9-141b-4e64-8a76-d10c5112d78f)
 ![yhh](https://github.com/user-attachments/assets/b8873423-0fad-4706-b052-39de1c663405)
 ![ytuh](https://github.com/user-attachments/assets/3f488bf3-6208-4425-9706-8bc4bf734014)
 
-The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show connection was allowed. This makes this alert a true positive and esculation is required as connection was successful, here is the full case report:
+The URL was deemed malicious, the sender only communicated with C. Allen, and firewall logs show connection was allowed. This makes this alert a true positive and escalation is required as connection was successful, here is the full case report:
 ![utyf](https://github.com/user-attachments/assets/f627e6c3-b770-4956-a62c-7c042912f9f6)
 
 ---
 ### Alert 4: Inbound Email Containing Suspicious External Link (True Positive)
 ![tghh](https://github.com/user-attachments/assets/d910b460-bd04-4b15-8724-aa3d8c5f70fe)
 
-If we look at the link this alert is actually a precursor to alert 2. the was the phishing email sent that caused H. Harris to click on the link. We already know the link is malicious and firewall blocked access so we are ready to write the case report.
+If we look at the link this alert is actually a precursor to alert 2. The was the phishing email sent that caused H. Harris to click on the link. We already know the link is malicious and firewall blocked access so we are ready to write the case report.
 ![ytr](https://github.com/user-attachments/assets/12dc611f-695f-457c-870b-4e972b0a836d)
 
 ![tg](https://github.com/user-attachments/assets/aac048e7-1666-42c6-bd73-35d2da69cf17)
-We found all the true positives in the alert queue and correctly assessed each one!
+I found all the true positives in the alert queue and correctly assessed each one!
 
 ---
 ### Reflection
