@@ -46,6 +46,8 @@ Sceanrio 3: Employee is being offboarded, we need to disable the account, not de
 
 Scenario 4: Create and share a folder for the IT admins to view but deny access to everyone else.
 <img width="1018" height="770" alt="ad lab 32" src="https://github.com/user-attachments/assets/dce6b853-f830-403b-ac64-6d923e222f99" />
+The IT folder is able to be viewed by everyone on the network.
 <img width="1015" height="771" alt="ad lab 29" src="https://github.com/user-attachments/assets/7e1a89e6-f468-4a32-b443-aa92e55f7168" />
+When someone from HR tries to open the folder they are denied access.
 <img width="1028" height="727" alt="ad lab 30" src="https://github.com/user-attachments/assets/4836d5a2-b625-42c8-bb5b-e7022a1b324c" />
 <img width="799" height="586" alt="ad lab 31" src="https://github.com/user-attachments/assets/54c0cba5-0177-4c7d-950e-83fb5fd634d2" />
