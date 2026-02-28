@@ -25,3 +25,17 @@ Disable USB storage: Deny access when a USB is connected.
 
 <img width="527" height="179" alt="ad lab 14" src="https://github.com/user-attachments/assets/df35b39d-3165-4cd5-9e64-a25223b3bdb0" />
 
+---
+### Scenarios
+
+Scenario 1: Adam forgot his password and attempted too many password attempts and locked himself out, unlock his account using AD.
+
+<img width="1013" height="760" alt="ad lab 17" src="https://github.com/user-attachments/assets/61853aa6-f295-4f90-92b7-f13af631e210" />
+
+<img width="425" height="533" alt="ad lab 18" src="https://github.com/user-attachments/assets/81ea8362-2447-4e6a-9f93-243d9444913c" />
+
+Scenario 2: Nathan Botello is a new employee in the HR department who needs to be added to AD. Add him and show a successful login.
+
+<img width="1013" height="756" alt="ad lab 22" src="https://github.com/user-attachments/assets/f4ab680b-365a-4028-9286-1570a45a98c0" />
+<img width="1014" height="816" alt="ad lab 24" src="https://github.com/user-attachments/assets/d4e4bee5-5d98-4cbc-8798-8db4300e3523" />
+
