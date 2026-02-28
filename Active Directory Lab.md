@@ -39,3 +39,13 @@ Scenario 2: Nathan Botello is a new employee in the HR department who needs to b
 <img width="1013" height="756" alt="ad lab 22" src="https://github.com/user-attachments/assets/f4ab680b-365a-4028-9286-1570a45a98c0" />
 <img width="1014" height="816" alt="ad lab 24" src="https://github.com/user-attachments/assets/d4e4bee5-5d98-4cbc-8798-8db4300e3523" />
 
+Sceanrio 3: Employee is being offboarded, we need to disable the account, not delete yet.
+
+<img width="1017" height="760" alt="ad lab 27" src="https://github.com/user-attachments/assets/c014242e-d78a-4911-928d-8c80d9b5ae84" />
+<img width="1022" height="767" alt="ad lab 28" src="https://github.com/user-attachments/assets/8170e5e9-182a-49ae-9b6b-572000be5577" />
+
+Scenario 4: Create and share a folder for the IT admins to view but deny access to everyone else.
+<img width="1018" height="770" alt="ad lab 32" src="https://github.com/user-attachments/assets/dce6b853-f830-403b-ac64-6d923e222f99" />
+<img width="1015" height="771" alt="ad lab 29" src="https://github.com/user-attachments/assets/7e1a89e6-f468-4a32-b443-aa92e55f7168" />
+<img width="1028" height="727" alt="ad lab 30" src="https://github.com/user-attachments/assets/4836d5a2-b625-42c8-bb5b-e7022a1b324c" />
+<img width="799" height="586" alt="ad lab 31" src="https://github.com/user-attachments/assets/54c0cba5-0177-4c7d-950e-83fb5fd634d2" />
