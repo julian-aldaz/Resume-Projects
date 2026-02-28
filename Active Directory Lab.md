@@ -33,8 +33,8 @@ Scenario 1 Account Lockout Resolution: A user (Adam Smith) was locked out after 
 <img width="1013" height="760" alt="ad lab 17" src="https://github.com/user-attachments/assets/61853aa6-f295-4f90-92b7-f13af631e210" />
 
 <img width="425" height="533" alt="ad lab 18" src="https://github.com/user-attachments/assets/81ea8362-2447-4e6a-9f93-243d9444913c" />
----
 
+---
 Scenario 2: Nathan Botello is a new employee in the HR department who needs to be added to AD. Add him and show a successful login.
 
 <img width="1013" height="756" alt="ad lab 22" src="https://github.com/user-attachments/assets/f4ab680b-365a-4028-9286-1570a45a98c0" />
