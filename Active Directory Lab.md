@@ -35,12 +35,13 @@ Disable USB storage: Deny access when a USB is connected.
 <img width="425" height="533" alt="ad lab 18" src="https://github.com/user-attachments/assets/81ea8362-2447-4e6a-9f93-243d9444913c" />
 
 ---
-Scenario 2: Nathan Botello is a new employee in the HR department who needs to be added to AD. Add him and show a successful login.
+**Scenario 2 New Employee Onboarding:** A new employee Nathan Botello joined the HR department and needed to be provisioned with a domain account. I created the user account in Active Directory Users and Computers under the HR Department OU, assigned the username nbotello@corp.local, and set an initial password. The account was then added to the HR-Staff security group to ensure appropriate access permissions. After creation I verified the account was functional by logging into Workstation01 as nbotello confirming the user could successfully authenticate to the domain. Proper onboarding ensures new employees have access to necessary resources from day one while maintaining security through OU and group-based access control.
 
 <img width="1013" height="756" alt="ad lab 22" src="https://github.com/user-attachments/assets/f4ab680b-365a-4028-9286-1570a45a98c0" />
 <img width="1014" height="816" alt="ad lab 24" src="https://github.com/user-attachments/assets/d4e4bee5-5d98-4cbc-8798-8db4300e3523" />
 
-Sceanrio 3: Employee is being offboarded, we need to disable the account, not delete yet.
+---
+**Sceanrio 3 Employee Offboarding (Account Disable):** An employee (Adam Smith) was leaving the company and their account needed to be deactivated immediately to prevent unauthorized access. Following security best practices I disabled the account rather than deleting it preserving the account and its permissions for a 30-day period in case data recovery or access auditing is needed. This was done by right clicking the user in Active Directory Users and Computers and selecting Disable Account. The confirmation was verified on Workstation01 where the login screen displayed "Your account has been disabled. Please see your system administrator." Disabling rather than deleting accounts is standard procedure in enterprise IT to maintain an audit trail and allow for recovery if needed.
 
 <img width="1017" height="760" alt="ad lab 27" src="https://github.com/user-attachments/assets/c014242e-d78a-4911-928d-8c80d9b5ae84" />
 <img width="1022" height="767" alt="ad lab 28" src="https://github.com/user-attachments/assets/8170e5e9-182a-49ae-9b6b-572000be5577" />
