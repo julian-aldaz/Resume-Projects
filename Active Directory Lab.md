@@ -47,7 +47,7 @@ Disable USB storage: Deny access when a USB is connected.
 <img width="1022" height="767" alt="ad lab 28" src="https://github.com/user-attachments/assets/8170e5e9-182a-49ae-9b6b-572000be5577" />
 
 ---
-**Scenario 4 File Share Permissions Management:** A shared folder called "IT folder" was created on DC01 and configured so that only members of the IT Admins security group could access its contents, while all other users would be denied. This was accomplished by setting both Share permissions and NTFS permissions exclusively to the IT Admins group and removing the default Everyone permission. Testing was performed from Workstation01 by logging in as an HR department user, who received a "Windows cannot access \DC01\IT folder" error confirming access was denied. When logged in as a member of the IT Admins group, the folder and its contents were fully accessible.
+**Scenario 4 File Share Permissions Management:** A shared folder called "IT folder" was created on DC01 and configured so that only members of the IT Admins security group could access its contents, while all other users would be denied. This was accomplished by setting both Share permissions and NTFS permissions exclusively to the IT Admins group and removing the default Everyone permission. Testing was performed from Workstation01 by logging in as an HR department user, who received a "Windows cannot access \DC01\IT folder" error confirming access was denied. When logged in as a member of the IT Admins group, the folder and its contents were fully accessible. This procedure demonstrates the principle of least privilege.
 
 <img width="1018" height="770" alt="ad lab 32" src="https://github.com/user-attachments/assets/dce6b853-f830-403b-ac64-6d923e222f99" />
 
