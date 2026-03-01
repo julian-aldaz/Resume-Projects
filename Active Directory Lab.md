@@ -28,7 +28,7 @@ Disable USB storage: Deny access when a USB is connected.
 ---
 ### Scenarios
 
-Scenario 1 Account Lockout Resolution: A user (Adam Smith) was locked out after exceeding the 5 failed login attempt threshold defined in our Password Policy GPO. To resolve this I navigated to Active Directory Users and Computers, located the user account in the IT Department OU, opened Properties, Account tab, and checked the Unlock Account checkbox. The user was then able to successfully log back in.
+##Scenario 1 Account Lockout Resolution:## A user (Adam Smith) was locked out after exceeding the 5 failed login attempt threshold defined in our Password Policy GPO. To resolve this I navigated to Active Directory Users and Computers, located the user account in the IT Department OU, opened Properties, Account tab, and checked the Unlock Account checkbox. The user was then able to successfully log back in.
 
 <img width="1013" height="760" alt="ad lab 17" src="https://github.com/user-attachments/assets/61853aa6-f295-4f90-92b7-f13af631e210" />
 
